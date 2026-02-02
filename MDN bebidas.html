@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MDN Bebidas Encarga la tuya para este verano </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .bebida {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .bebida:last-child {
+            border-bottom: none;
+        }
+        .precio {
+            font-weight: bold;
+            color: #007bff;
+        }
+        .contacto {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background-color: #25d366;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+        .btn-whatsapp:hover {
+            background-color: #128c7e;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style> 
+</head>
+<body>
+    <header>
+        <h1>Bebidas por Encargo</h1>
+        <p>¡Pide tus bebidas favoritas y las preparamos para ti!</p>
+    </header>
+    
+    <div class="container">
+        <h2>Nuestras Bebidas</h2>
+        <div class="bebida"> 
+                   <span>Fernet con Coca</span>
+            <span class="precio">$19.000</span>
+        </div>
+        <div class="bebida">
+            <span>Gancia con Sprite</span>
+            <span class="precio">$12.500</span>
+        </div>
+        <div class="bebida">
+            <span>Skyy con 2 Baggios</span>
+            <span class="precio">$15.000</span>
+        </div>
+        <div class="bebida">
+            <span>Sprite con Smirnoff (sin sabor)</span>
+            <span class="precio">$14.000</span>
+        </div>
+        <div class="bebida">
+            <span>Vino Santa Julia + 1 Sprite</span>
+            <span class="precio">$12.800</span>
+        </div>
+        
+        <div class="contacto">
+            <p>Para hacer tu pedido, contáctanos por WhatsApp:</p>
+            <a href="https://wa.me/5493424492484" class="btn-whatsapp" target="_blank">Contactar por WhatsApp</a>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Bebidas por Encargo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
